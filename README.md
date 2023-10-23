@@ -13,7 +13,7 @@ To use these macros, you need to have Klipper installed and configured on your R
 
 - Add the following section to your moonraker.conf file to enable Moonraker to automatically update this repository:
   ```config
-  [update_manager boubik-settings]
+  [update_manager Boubik-Settings]
   type: git_repo
   primary_branch: master
   path: ~/Boubik-Settings
