@@ -7,6 +7,8 @@ To use these macros, you need to have Klipper installed and configured on your R
   ```terminal
   cd ~/
   git clone https://github.com/Boubik/Kliiper-Settings.git Boubik-Settings
+  ln -s ~/Boubik-Settings/ printer_data/config/Boubik-Settings
+  cp ~/Boubik-Settings/Boubik-Settings.cfg ~/printer_data/config/Boubik-Settings.cfg
   ```
 
 - Add the following section to your moonraker.conf file to enable Moonraker to automatically update this repository:
