@@ -19,10 +19,9 @@ To use these macros, you need to have Klipper installed and configured on your R
   path: ~/Boubik-Settings
   origin: https://github.com/Boubik/Kliiper-Settings.git
   ```
-- Restart Moonraker by running the following command on your Raspberry Pi:
-  ```terminal
-  sudo service moonraker restart
-  ```
+
+- Restart Moonraker.
+
 - To enable the macros, you need to edit your printer.cfg file and include the macros.cfg file from this repository. For example, you can add the following line to your printer.cfg file:
   ```config
   [include Boubik-Settings.cfg]
