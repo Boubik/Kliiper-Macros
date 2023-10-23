@@ -5,8 +5,8 @@ This repository contains a collection of setting for Klipper, a 3D printer firmw
 To use these macros, you need to have Klipper installed and configured on your Raspberry Pi and 3D printer. You can follow the official installation guide.
 - Add this repository as a git submodule to your klipper_config folder on your Raspberry Pi by running the following commands:
   ```terminal
-  cd ~/klipper_config
-  git submodule add https://github.com/Boubik/Kliiper-Settings.git Boubik-Settings
+  cd ~/
+  git clone https://github.com/Boubik/Kliiper-Settings.git Boubik-Settings
   ```
 
 - Add the following section to your moonraker.conf file to enable Moonraker to automatically update this repository:
@@ -23,7 +23,7 @@ To use these macros, you need to have Klipper installed and configured on your R
   ```
 - To enable the macros, you need to edit your printer.cfg file and include the macros.cfg file from this repository. For example, you can add the following line to your printer.cfg file:
   ```config
-  [include Boubik-Settings/macros.cfg]
+  [include Boubik-Settings.cfg]
   ```
 
 # License
