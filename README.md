@@ -7,7 +7,7 @@ To use these macros, you need to have Klipper installed and configured on your R
   ```terminal
   cd ~/
   git clone https://github.com/Boubik/Kliiper-Settings.git Boubik-Settings
-  ln -s ~/Boubik-Settings printer_data/config/Boubik-Settings
+  ln -s ~/Boubik-Settings/configs printer_data/config/Boubik-Settings
   cp ~/Boubik-Settings/Boubik-Settings.cfg ~/printer_data/config/Boubik-Settings.cfg
   ```
 
