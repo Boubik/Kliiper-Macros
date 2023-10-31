@@ -18,6 +18,7 @@ To use these macros, you need to have Klipper installed and configured on your R
   primary_branch: master
   path: ~/Boubik-Settings
   origin: https://github.com/Boubik/Kliiper-Settings.git
+  is_system_service: False
   ```
 
 - Restart Moonraker.
